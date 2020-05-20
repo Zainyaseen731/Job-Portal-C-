@@ -1,0 +1,32 @@
+@model zain.Models.job
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+
+    <div>
+
+        <form method="get" action="/Home/add" style="max-width:500px;margin:auto" name=signup>
+
+            <p>Job Type</p>
+            <div class="input-container">
+                <input type="text" class="input-field empty" placeholder=" &#xf0f2             Type Job Type " name="type">
+            </div>
+            <p>Job Title</p>
+            <div class="input-container">
+                <input type="text" class="input-field empty" placeholder=" &#xf0f2             Type Job Title " name="title">
+
+            </div>
+            <p>Company Name</p>
+            <div class="input-container">
+                <input type="text" class="input-field empty" placeholder=" &#xf015             Type Company Name " name="company">
+
+            </div>
+            <p>Location</p>
+            <div class="input-container">
+                <input type="text" class="input-field empty" placeholder=" &#xf041           Type Location " name="location">
+            </div>
+            <br>
+            <button type="submit" class="btn">Add_Job</button>
+        </form>
+    </div>
+</body>

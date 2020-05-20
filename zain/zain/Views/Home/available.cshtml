@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "available";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>These are the avalable that we have !</h2>
+<br>
+@using (Html.BeginForm("Jobs", "Home"))
+{
+    <input name="submit" type="submit" id="submit" value="Demandware" class="btn" onclick="location.href='@Url.Action("Jobs", "Home")'" />
+    <br>
+    <br>
+    <input name="submit" type="submit" id="submit" value="Java" class="btn" onclick="location.href='@Url.Action("Jobs", "Home")'" />
+    <br>
+    <br>
+    <input name="submit" type="submit" id="submit" value="Django" class="btn" onclick="location.href='@Url.Action("Jobs", "Home")'" />
+    <br>
+    <br>
+    <input name="submit" type="submit" id="submit" value="React" class="btn" onclick="location.href='@Url.Action("Jobs", "Home")'" />
+    <br>
+    <br>
+    <input name="submit" type="submit" id="submit" value="Others" class="btn" onclick="location.href='@Url.Action("Jobs", "Home")'" />
+    <br>
+}
+
+
+

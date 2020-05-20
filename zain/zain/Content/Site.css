@@ -1,0 +1,89 @@
+﻿body {
+    padding-top: 150px;
+    padding-bottom: 150px;
+   
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.blacky{
+    color:black;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 80%;
+    margin-bottom: 15px;
+    margin-left: 90px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    background: none;
+    border-bottom: 2px solid black;
+}
+
+.input-field:focus {
+        border-bottom: 2px solid black;
+    }
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 57%;
+    opacity: 0.9;
+    border-radius: 15px;
+    margin-left: 90px;
+}
+
+    .btn:hover {
+        opacity: 1;
+    }
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 110%;
+    text-decoration: inherit;
+}
+
+.tab {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
